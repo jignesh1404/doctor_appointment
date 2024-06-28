@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    font-family: "Philosopher", sans-serif;
+}
+
+.authentication{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(9, 24, 27) ;
+ }
+
+ .card{
+    box-shadow: 0 0 2px gray;
+    border-radius: 0 !important;
+ }
+.card-title{
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    background-color:rgb(13, 90, 107);
+    color: white;
+    max-width: max-content !important;
+    padding: 7px 15px;
+    margin-left: -40px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.normal-text{
+    font-size: 1rem;
+}
+.authentication-form{
+    width: 400px;
+}
+input{
+    border: 1px solid gray;
+    /* border-radius: 0 !important; */
+    height: 35px ;
+}
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid black !important;
+}
+label{
+    font-size: 16px !important;
+    color: black;
+}
+.ant-form-item {
+    margin: 8px 0 !important;
+}
+.primary-button{
+    background-color: rgb(13, 90, 107);
+    border-color: rgb(8, 85, 95);
+    height: 40px;
+    width: 100%;
+    color: white;
+}
+.ancker{
+    color: black;
+    text-decoration: underline;
+    font-size: 16px;
+}
+.ancker:hover{
+    
+    text-decoration: underline;
+    
+}
+
+.spinner-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.598);
+    position :fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
